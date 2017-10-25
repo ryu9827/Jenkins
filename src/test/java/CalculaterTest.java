@@ -13,7 +13,10 @@ public class CalculaterTest extends TestCase {
 	}
 	public void testAdd() {
 		assertEquals(7, obj.add(x, y));
-		
+	}
+	
+	public void testSubtract(){
+		assertEquals(-1, obj.subtract(x, y));
 	}
 	protected void tearDown() throws Exception {
 		x=0;
