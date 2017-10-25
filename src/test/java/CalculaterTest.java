@@ -18,6 +18,7 @@ public class CalculaterTest extends TestCase {
 	public void testSubtract(){
 		assertEquals(-1, obj.subtract(x, y));
 	}
+	
 	protected void tearDown() throws Exception {
 		x=0;
 		y=0;
